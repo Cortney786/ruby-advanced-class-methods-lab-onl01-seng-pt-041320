@@ -51,7 +51,7 @@ def self.new_from_filename(filename)
   song
 end  
 
-def self.create_from_filename(filemname)
+def self.create_from_filename(filename)
   song = self.create
   equal = self.new_from_filename(filename)
   song.artist_name = equal.artist_name
